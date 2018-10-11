@@ -3,8 +3,8 @@ class ScoreCardPrinter
   def initialize(identities, spy_items)
     @identities = identities
     @spy_items = spy_items
-    @empty_space = "\u2606"
-    @filled_space = "\u2605"
+    @empty_space = "\u2606" # white star
+    @filled_space = "\u2605" # black star
   end
 
   def to_s
